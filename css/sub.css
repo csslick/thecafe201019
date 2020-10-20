@@ -1,0 +1,47 @@
+/* sub.css */
+
+/* 
+  #main 영역 header 
+  타이틀 영역: 1200 x 250
+*/
+#main {
+  width: 1200px;
+  margin: 0 auto;
+  outline: 2px solid red;
+}
+#main > header {
+  position: relative;
+  height: 250px;
+  background: url('http://placeimg.com/1200/250');
+}
+#main > header > h2 { color: #fff; }
+
+/* lnb 영역: header안에 하단 배치 */
+#lnb {
+  position: absolute;
+  background: #35302d;
+  bottom: 0;
+  /* 수평 중앙 정렬 */
+  left: 50%; transform: translateX(-50%);
+  color: #fff;
+}
+#lnb a { color: #fff;}
+#lnb ul { 
+  overflow: hidden;
+  /* outline: 2px solid green; */
+  padding-left: 30px;
+  padding-right: 30px;
+}
+#lnb ul li { float: left;} 
+#lnb ul a {
+  display: inline-block;
+  padding: 10px 15px;
+}
+/* 메뉴 구분선 */
+#lnb ul li span { 
+  font-size: 10px;
+  display: inline-block;
+  position: relative;
+  top: -3px;
+  opacity: 0.6;
+}
