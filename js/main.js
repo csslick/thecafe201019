@@ -14,12 +14,18 @@ $(function(){
 
 // bxslider 
 $(document).ready(function(){
-  $('.slider').bxSlider({
-    // 효과: horizontal', 'vertical', 'fade'
-    mode: 'fade',
-    // 인터벌 시간
-    pause: 3000,
-    // 자동재생: true | false
-    auto: true
+
+  $('#visual').imagesLoaded( function() {
+    // images have loaded
+    $('.slider').bxSlider({
+      // 효과: horizontal', 'vertical', 'fade'
+      mode: 'fade',
+      // 인터벌 시간
+      pause: 4000,
+      // 자동재생: true | false
+      auto: true
+    });
   });
+
+
 });
