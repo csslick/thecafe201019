@@ -165,7 +165,7 @@ section h3 {
   overflow: hidden;
   outline: 2px solid red;
   margin: 0 auto;
-  padding-top: 60px;
+  padding: 60px 0;
 }
 #foundation > figure > img { width: 100%;}
 #foundation .line { 
@@ -197,3 +197,17 @@ section h3 {
   width: 100%; 
   height: 182.16px;
 }
+
+/* SNS 섹션 */
+#sns {
+  padding: 60px 0;
+  background: #f2f2f4;
+  width: 1200px;
+  margin: 0 auto;
+}
+#sns .sns_photo { overflow: hidden;}
+#sns .sns_photo li { 
+  float: left;
+  width: 240px; height: 240px;
+}
+#sns .sns_photo li img { width: 100%;}
