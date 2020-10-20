@@ -141,3 +141,34 @@ section h3 {
 #news > aside > a:first-child > img {
   margin-bottom: 20px;
 }
+#news > article { 
+  padding: 30px 20px 0 40px;
+}
+
+/* article 뉴스 기사 목록 */
+#news > article > .list1 > li,
+#news > article > .list2 > li {
+  overflow: hidden;
+  border-bottom: 1px solid #ccc;
+  padding: 8px 0;
+}
+#news > article > .list1 > li > span,
+#news > article > .list2 > li > span { float: right;}
+#news > article > .list1 > li > a,
+#news > article > .list2 > li > a { float: left;}
+
+#news > article > .list1 { margin-bottom: 40px;}
+
+/* 창업안내 섹션 */
+#foundation {
+  width: 1200px;
+  overflow: hidden;
+  outline: 2px solid red;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+#foundation > figure > img { width: 100%;}
+#foundation .line { 
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
