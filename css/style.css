@@ -123,7 +123,7 @@ section h3 {
 #news {
   width: 1200px;
   margin: 0 auto;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
   overflow: hidden;
 }
 #news > .news_banner { margin-bottom: 20px;}
@@ -135,7 +135,7 @@ section h3 {
 #news > article {
   width: 50%;
   float: left;
-  outline: 2px solid green;
+  /* outline: 2px solid green; */
 }
 #news > aside img { width: 100%;}
 #news > aside > a:first-child > img {
@@ -163,7 +163,7 @@ section h3 {
 #foundation {
   width: 1200px;
   overflow: hidden;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
   margin: 0 auto;
   padding: 60px 0;
 }
