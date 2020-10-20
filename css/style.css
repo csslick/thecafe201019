@@ -172,3 +172,28 @@ section h3 {
   margin-bottom: 50px;
   margin-top: 20px;
 }
+
+#foundation > .info_list {
+  overflow: hidden;
+  /* outline: 2px solid green; */
+}
+#foundation > .info_list > li {
+  float: left;
+  width: 183.33px;
+  margin-right: 20px;
+}
+#foundation > .info_list > li:last-child {
+  margin-right: 0;
+}
+#foundation > .info_list > li img {
+  width: 100%;
+}
+/* 첫번째 info list 크기 조정 */
+#foundation > .info_list > li:first-child {
+  width: calc(366.66px + 20px);
+  /* outline: 1px solid red; */
+}
+#foundation > .info_list > li:first-child img{
+  width: 100%; 
+  height: 182.16px;
+}
